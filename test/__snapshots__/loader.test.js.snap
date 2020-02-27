@@ -5,18 +5,7 @@ Array [
   [ModuleBuildError: Module build failed (replaced/path):
 Error: REQUEST FAILED
 STATUS CODE: 403
-https://cdn.bootcss.com/redux/4.0.5/redux.min.jsx
-    at ClientRequest.<anonymous> (replaced/path)
-    at Object.onceWrapper (events.js:428:26)
-    at ClientRequest.emit (events.js:321:20)
-    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:602:27)
-    at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
-    at TLSSocket.socketOnData (_http_client.js:471:22)
-    at TLSSocket.emit (events.js:321:20)
-    at addChunk (_stream_readable.js:297:12)
-    at readableAddChunk (_stream_readable.js:273:9)
-    at TLSSocket.Readable.push (_stream_readable.js:214:10)
-    at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)],
+https://cdn.bootcss.com/redux/4.0.5/redux.min.jsx],
 ]
 `;
 

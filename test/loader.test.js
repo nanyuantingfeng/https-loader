@@ -50,10 +50,7 @@ describe('loader', () => {
         // eslint-disable-next-line no-param-reassign
         error.message = error.message
           .replace(/\(from .*?\)/i, '(replaced/path)')
-          .replace(
-            /at ClientRequest.<anonymous> \(.*?\)/i,
-            'at ClientRequest.<anonymous> (replaced/path)'
-          );
+          .replace(/at\s.*/img, "").trim();
 
         return error;
       })
