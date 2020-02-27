@@ -1,0 +1,44 @@
+{
+  "name": "https-loader",
+  "version": "1.0.0",
+  "description": "a webpack loader for loading http(s) resources",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "security": "npm audit",
+    "test:only": "cross-env NODE_ENV=test jest",
+    "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "test:coverage": "cross-env NODE_ENV=test jest --collectCoverageFrom=\"index.js\" --coverage",
+    "test": "cross-env NODE_ENV=test npm run test:coverage"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "del": "^4.0.0",
+    "jest": "^24.5.0",
+    "jest-junit": "^6.4.0",
+    "memory-fs": "^0.4.1",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "http",
+    "https",
+    "remote"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanyuantingfeng/https-loader.git"
+  },
+  "author": "nanyuantingfeng<nanyuantingfeng@aliyun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanyuantingfeng/https-loader/issues"
+  },
+  "homepage": "https://github.com/nanyuantingfeng/https-loader#readme"
+}
