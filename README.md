@@ -1,16 +1,11 @@
 # https-loader
 >  a webpack loader for loading http(s) resources
 
-[![npm][npm]][npm-url]
-[![size][size]][size-url]
-[![Build Status][build-status]][build-status]
 
-
-[npm-url]: https://www.npmjs.com/package/https-loader
-[size]: https://packagephobia.now.sh/badge?p=https-loader
-[size-url]: https://packagephobia.now.sh/result?p=https-loader
-[build-status]: https://travis-ci.org/nanyuantingfeng/https-loader.svg?branch=master
-
+[![Build Status](https://travis-ci.org/nanyuantingfeng/https-loader.svg?branch=master)](https://travis-ci.org/nanyuantingfeng/https-loader)
+[![Coverage Status](https://coveralls.io/repos/github/nanyuantingfeng/https-loader/badge.svg?branch=master)](https://coveralls.io/github/nanyuantingfeng/https-loader?branch=master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/nanyuantingfeng/https-loader)](https://img.shields.io/github/repo-size/nanyuantingfeng/https-loader)
+[![npm](https://img.shields.io/npm/dt/nanyuantingfeng/https-loader)](https://img.shields.io/npm/dt/nanyuantingfeng/https-loader)
 
 #### Getting Started 
 

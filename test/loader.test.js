@@ -4,6 +4,8 @@ const fs = require('fs');
 const loader = require('..');
 const webpack = require('./helpers/compiler');
 
+jest.setTimeout(30000)
+
 describe('loader', () => {
   it('should export the loader', () => {
     expect(loader).toBeInstanceOf(Function);
