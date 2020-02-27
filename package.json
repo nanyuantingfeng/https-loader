@@ -4,18 +4,23 @@
   "description": "a webpack loader for loading http(s) resources",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm run clean",
+    "build": "npm run clean && npm run copy",
+    "copy": "cp index.js package.json LICENSE README.md dist",
+    "clean": "rm -rf ./dist && mkdir dist",
     "security": "npm audit",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test:only": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
     "test:coverage": "cross-env NODE_ENV=test jest --collectCoverageFrom=\"index.js\" --coverage",
-    "test": "cross-env NODE_ENV=test npm run test:coverage"
+    "test": "cross-env NODE_ENV=test npm run test:coverage",
+    "publish2npm": "npm run build && npm publish ./dist"
   },
   "peerDependencies": {
     "webpack": "^4.0.0"
   },
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "cross-env": "^5.2.0",
     "del": "^4.0.0",
     "jest": "^24.5.0",

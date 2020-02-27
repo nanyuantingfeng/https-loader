@@ -3,14 +3,13 @@
 
 [![npm][npm]][npm-url]
 [![size][size]][size-url]
+[![Build Status][build-status]][build-status]
 
 
 [npm-url]: https://www.npmjs.com/package/https-loader
 [size]: https://packagephobia.now.sh/badge?p=https-loader
 [size-url]: https://packagephobia.now.sh/result?p=https-loader
-
-
-
+[build-status]: https://travis-ci.org/nanyuantingfeng/https-loader.svg?branch=master
 
 
 #### Getting Started 
