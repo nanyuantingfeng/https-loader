@@ -178,3 +178,5 @@ dist
 .tern-port
 
 test/
+coverage/
+.gitignore
