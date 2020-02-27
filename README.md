@@ -1,19 +1,16 @@
 # https-loader
->  a webpack loader for loading http(s) resources
 
+> a webpack loader for loading http(s) resources
 
 [![Build Status](https://travis-ci.org/nanyuantingfeng/https-loader.svg?branch=master)](https://travis-ci.org/nanyuantingfeng/https-loader)
 [![Coverage Status](https://coveralls.io/repos/github/nanyuantingfeng/https-loader/badge.svg?branch=master)](https://coveralls.io/github/nanyuantingfeng/https-loader?branch=master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/nanyuantingfeng/https-loader)](https://img.shields.io/github/repo-size/nanyuantingfeng/https-loader)
-[![npm](https://img.shields.io/npm/dt/nanyuantingfeng/https-loader)](https://img.shields.io/npm/dt/nanyuantingfeng/https-loader)
 
-#### Getting Started 
+#### Getting Started
 
 ```shell
 npm install --save-dev https-loader
 ```
-
-
 
 #### Usage
 
@@ -28,7 +25,7 @@ npm install --save-dev https-loader
    // other.js
 
    ```js
-   const demo = require("https-loader!./demo.http")
+   const demo = require('https-loader!./demo.http');
    ```
 
 2. use as preconfigured rule
@@ -44,19 +41,13 @@ npm install --save-dev https-loader
        rules: [
          {
            test: /\.https?$/,
-           use: 'https-loader'
+           use: 'https-loader',
          },
        ],
      },
    };
-   
    ```
 
    ```js
-   const demo = require("./demo.http")
+   const demo = require('./demo.http');
    ```
-
-   
-
-
-

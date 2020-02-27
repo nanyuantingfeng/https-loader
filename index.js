@@ -31,11 +31,7 @@ function loadSource(url, callback) {
     res.on('data', (chunk) => (rawData += chunk));
 
     res.on('end', () => {
-      try {
-        callback(null, rawData);
-      } catch (e) {
-        callback(e);
-      }
+      callback(null, rawData);
     });
   }).on('error', (e) => callback(e));
 }
