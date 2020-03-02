@@ -6,8 +6,6 @@ before_install:
 install:
   - npm install
 script:
-  - npm run test
-  - npm run coveralls
   - npm run publish2npm
 branches:
   only:
